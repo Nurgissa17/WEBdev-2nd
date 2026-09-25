@@ -1,0 +1,163 @@
+body {
+    background-color: black;
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.logo img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav a:hover{
+    transform: scale(1.1);
+}
+.nav{
+    display: flex;
+    gap: 70px;
+    flex-grow: 1; 
+    justify-content: space-evenly;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;  
+}
+.card{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 20px;
+}
+.gallery-item{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.gallery-item img{
+    width: 100%;
+    height: 150px;
+}
+.gallery-item p{
+    text-align: center;
+}
+.gallery-item:hover{
+    transform: scale(1.1);
+}
+.portfolio-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.portfolio-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.portfolio-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.portfolio-nav a:hover{
+    transform: scale(1.1);
+}
+.portfolio-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.portfolio-info{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.portfolio-footer{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 200px auto;
+    gap: 20px;
+}
+.layout-header{
+    grid-column: 1 / 3;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.layout-sidebar{
+    grid-column: 1;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.layout-main{
+    grid-column: 2;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.layout-footer{
+    grid-column: 1 / 3;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
